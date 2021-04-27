@@ -21,7 +21,7 @@ body{
     display: inline-flex;
     list-style: none;
     color: white;
-    
+   
 }
 .menu ul li{
     width: 130px;
@@ -44,9 +44,9 @@ body{
  .menu ul li:hover .submenu1{
     display: block;
     position: absolute;
-    margin-top: 15px;
+    margin-top:8px;
     margin-bottom: 15px;
-    margin-left: -15px;
+    margin-left: -35px;
     margin-right: auto;
     background: #50ec29; 
     
@@ -93,7 +93,7 @@ body{
     display: block;
     position: absolute;
     background-color:greenyellow;
-    margin-top: -40px;
+    margin-top: -50px;
     margin-bottom: 15px;
     margin-left: 160px;
 }
