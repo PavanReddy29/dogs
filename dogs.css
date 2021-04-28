@@ -65,6 +65,7 @@ body{
 
 .menu ul li:hover .submenu1 ul li a:hover{
     color: black;
+    text-align: center;
 }
 .subtypes{
     display: none;
@@ -80,11 +81,12 @@ body{
 .oncurser :hover .subtypes ul{
     display: block;
     margin: 10px;
+    
 }
 .oncurser:hover .subtypes ul li{
     width: 150px;
     padding: 10px;
-    border-style: groove;
+    
 }
 .subtypes2{
     display: none;
@@ -104,5 +106,14 @@ body{
 .oncurser2:hover .subtypes2 ul li{
     width: 150px;
     padding: 10px;
-    border-style: groove;
+    text-align: center;
+    
+}
+.new button{
+    display: block;
+    background-color: greenyellow ;
+    color: white; 
+    border: none;
+    width: 150px;
+    padding: 10px;
 }
